@@ -21,26 +21,9 @@ margin:0px;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.paradracula {
-    background-image: url('https://farm2.staticflickr.com/1957/45586064592_021d092f2e_k.jpg');
-}
-
 .paracircuit {
     /* The image used */
     background-image: url('https://farm5.staticflickr.com/4868/45969868974_209dbb7b9a_o.jpg');
-
-    /* Set a specific height */
-    min-height: 90vh;
-    margin-bottom: 130px;
-    margin-top: 80px;
-    margin-right: 1%;
-    margin-left: 1%;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 .paradrac {
     /* The image used */
