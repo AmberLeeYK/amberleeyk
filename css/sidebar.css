@@ -39,6 +39,7 @@
 
 /* The button used to open the sidebar */
 .openbtn {
+  z-index: 1; /* Stay on top */
   position: absolute;
   top: 0;
   right:0;
