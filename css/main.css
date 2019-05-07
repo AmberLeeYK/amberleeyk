@@ -1,53 +1,28 @@
-/* start, adds scrollbars, to prevent movement when clicking buttons */
+/*  adds scrollbars, to prevent movement when clicking buttons
 html {
-    overflow: -moz-scrollbars-vertical; 
+    overflow: -moz-scrollbars-vertical;
     overflow-y: scroll;
 }
-/* end, adds scrollbars, to prevent movement when clicking buttons */
-
-
-.post-title.entry-title {
-display: none;
-}
-
+ end, adds scrollbars, to prevent movement when clicking buttons */
 .section{
 margin:0px;
 }
 
 .parallax {
-    /* The image used */
-    background-image: url("img_parallax.jpg");
-
     /* Set a specific height */
-    min-height: 90vh; 
+    min-height: 90vh;
     margin-bottom: 130px;
     margin-top: 80px;
     margin-right: 2%;
     margin-left: 2%;
-
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-}.paradracula {
-    /* The image used */
+.paradracula {
     background-image: url('https://farm2.staticflickr.com/1957/45586064592_021d092f2e_k.jpg');
-
-    /* Set a specific height */
-    min-height: 90vh; 
-    margin-bottom: 130px;
-    margin-top: 80px;
-    margin-right: 2%;
-    margin-left: 2%;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .paracircuit {
@@ -55,7 +30,7 @@ margin:0px;
     background-image: url('https://farm5.staticflickr.com/4868/45969868974_209dbb7b9a_o.jpg');
 
     /* Set a specific height */
-    min-height: 90vh; 
+    min-height: 90vh;
     margin-bottom: 130px;
     margin-top: 80px;
     margin-right: 1%;
@@ -72,7 +47,7 @@ margin:0px;
     background-image: url('https://farm5.staticflickr.com/4913/44899528425_deff814ff1_k.jpg');
 
     /* Set a specific height */
-    min-height: 90vh; 
+    min-height: 90vh;
     margin-bottom: 130px;
     margin-top: 80px;
     margin-right: 1%;
@@ -90,7 +65,7 @@ margin:0px;
     background-image: url('https://farm5.staticflickr.com/4907/31941699348_61e5bd7bb4_k.jpg');
 
     /* Set a specific height */
-    min-height: 90vh; 
+    min-height: 90vh;
     margin-bottom: 130px;
     margin-top: 80px;
     margin-right: 1%;
@@ -108,7 +83,7 @@ margin:0px;
     background-image: url('https://farm5.staticflickr.com/4893/44899524705_3c3dcecd8f_k.jpg');
 
     /* Set a specific height */
-    min-height: 90vh; 
+    min-height: 90vh;
     margin-bottom: 130px;
     margin-top: 80px;
     margin-right: 1%;
@@ -126,7 +101,7 @@ margin:0px;
     background-image: url('https://farm5.staticflickr.com/4870/31941698268_824136efb1_k.jpg');
 
     /* Set a specific height */
-    min-height: 90vh; 
+    min-height: 90vh;
     margin-bottom: 130px;
     margin-top: 80px;
     margin-right: 1%;
@@ -144,7 +119,7 @@ margin:0px;
     background-image: url('https://farm5.staticflickr.com/4914/45398337444_a1dbba7230_k.jpg');
 
     /* Set a specific height */
-    min-height: 90vh; 
+    min-height: 90vh;
     margin-bottom: 130px;
     margin-top: 80px;
     margin-right: 1%;
@@ -162,7 +137,7 @@ margin:0px;
     background-image: url('https://farm5.staticflickr.com/4840/44899522735_3531a86de6_k.jpg');
 
     /* Set a specific height */
-    min-height: 90vh; 
+    min-height: 90vh;
     margin-bottom: 130px;
     margin-top: 80px;
     margin-right: 1%;
@@ -180,7 +155,7 @@ margin:0px;
     background-image: url('https://farm5.staticflickr.com/4805/45157960534_03910bdfeb_k.jpg');
 
     /* Set a specific height */
-    min-height: 90vh; 
+    min-height: 90vh;
     margin-bottom: 130px;
     margin-top: 80px;
     margin-right: 1%;
@@ -198,7 +173,7 @@ margin:0px;
     background-image: url('https://farm5.staticflickr.com/4817/45812439151_996cc58224_k.jpg');
 
     /* Set a specific height */
-    min-height: 90vh; 
+    min-height: 90vh;
     margin-bottom: 130px;
     margin-top: 80px;
     margin-right: 1%;
@@ -216,7 +191,7 @@ margin:0px;
     background-image: url('https://farm5.staticflickr.com/4839/45812436781_95e0b769ca_k.jpg');
 
     /* Set a specific height */
-    min-height: 90vh; 
+    min-height: 90vh;
     margin-bottom: 130px;
     margin-top: 80px;
     margin-right: 1%;
@@ -1042,7 +1017,7 @@ img {
   background-size: cover;
 }
 
-.MainContainer::-webkit-scrollbar { 
+.MainContainer::-webkit-scrollbar {
     width: 0;
 }
 .img-fluid{
