@@ -32,8 +32,9 @@
   position: absolute;
   top: 0;
   right: 0;
-  font-size: 36px;
-  margin-left: 50px;
+  font-size: 20px;
+  margin-left: 55px; /* just some space */
+  padding: 10px 15px; /* added this to match optnbtn */
 }
 
 /* The button used to open the sidebar */
