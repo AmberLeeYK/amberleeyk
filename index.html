@@ -24,6 +24,7 @@
     <body>
       <div id="main"><!-- wraps body content for sidebar -->
     <!--removed sidebar button-->
+    <div w3-include-html="/snippet/content.html"></div>4
         <button id='scrollTopbtn' onclick='topFunction()' title='Go to top'><i class='fas fa-angle-up'></i></button><!-- title is text when you hover over it-->
           <!--
           https://getbootstrap.com/docs/4.3/components/navbar/
@@ -83,5 +84,6 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         <script src="/javascript/scroll.js"></script>
         <script src="/javascript/sidebar.js"></script>
+        <script>includeHTML();</script>
       </body>
     </html>
