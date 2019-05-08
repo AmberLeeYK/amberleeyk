@@ -2,10 +2,10 @@
 .parallax {
     /* Set a specific height */
     min-height: 90vh;
-    margin-bottom: 130px;
+    margin-bottom: 130px; <!-- seems to conflict with min-height-->
     margin-top: 80px;
-    margin-right: 2%;
-    margin-left: 2%;
+    margin-right: 1vh;
+    margin-left: 1vh;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
