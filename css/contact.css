@@ -1,0 +1,7 @@
+table#contact {
+border-spacing: 5px;
+border: 1px solid black;
+}
+td.left {
+text-align: right;
+}
