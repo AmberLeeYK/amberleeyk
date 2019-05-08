@@ -1,3 +1,10 @@
+
+/* sarah lee
+16 is a common base em, then use px to em conversion
+ https://www.w3schools.com/tags/ref_pxtoemconversion.asp
+ https://www.w3schools.com/cssref/css_units.asp
+body { font size: 16px; } sets base em, 16px is commonly used */
+
 /*  adds scrollbars, to prevent movement when clicking buttons
 html {
     overflow: -moz-scrollbars-vertical;
@@ -22,7 +29,7 @@ margin:0px;
 }
 
 /* scroll bar edit */
-*/* {
+/* {
     box-sizing: border-box;
 }
 

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-  <html lang="en-US"><!--bootstrap requires-->
-    <head>
+<html lang="en-US"><!--bootstrap requires-->
+   <head>
       <meta charset="utf-8"><!--bootstrap requires-->
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><!--bootstrap requires-->
       <meta name="author" content="Amber Lee">
@@ -8,7 +8,6 @@
       <meta name="keywords" content="portfolio, Amber Lee, graphic designer, nyc graphic designer, sva"> <!-- Define keywords for search engines.-->
       <title>Amber Lee</title>
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <!--  <link rel="stylesheet" type="text/css" href="/css/main.css">  neeeds to be fixed with amber-->
       <link rel="stylesheet" type="text/css" href="/css/scrolltotop.css">
       <link rel="stylesheet" type="text/css" href="/css/sidebar.css">
       <link rel="stylesheet" type="text/css" href="/css/parallax.css">
@@ -19,72 +18,52 @@
       <link href='https://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet'>
       <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
       <script src='https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js'></script><!-- what is this for?-->
-    </head>
-
-    <body>
+      <script src="/javascript/includehtml.js"></script>
+   </head>
+   <body>
       <div id="main"><!-- wraps body content for sidebar -->
-    <!--removed sidebar button-->
-
-        <button id='scrollTopbtn' onclick='topFunction()' title='Go to top'><i class='fas fa-angle-up'></i></button><!-- title is text when you hover over it-->
-          <!--
-          https://getbootstrap.com/docs/4.3/components/navbar/
-          once you decide on navbar height, add padding-top to body tag
-        -->
-          <button class="openbtn" onclick="openNav()"><i class="fa fa-bars" aria-hidden="true"></i></button> <!--sidebar-->
-          <!--https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_collapse_sidebar-->
-        <div id="mySidebar" class="sidebar">
-          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fas fa-times"></i></a>
-          <a href="#">About</a>
-          <a href="#">Services</a>
-          <a href="#">Clients</a>
-          <a href="#contact">Contact</a>
-        </div><!-- end of sidebar-->
-        <!-- change pages to descriptive pages later-->
-        <div class='row no-gutters'><!--circuit and circuit branding-->
-          <div class='col'><a href='/page/1.html'><img class='img-fluid' src='/img/thumbnail/1.jpg' style='max-width:100%; height:auto;'/></a>
-          </div>
-          <div class='col'><a href='/page/2.html'><img class='img-fluid' src='/img/thumbnail/2.jpg' style='max-width:100%; height:auto;'/></a>
-          </div>
-        </div>
-        <div class='row no-gutters'><!--dracula and verve-->
-          <div class='col'><a href='/page/3.html'><img class='img-fluid' src='/img/thumbnail/3.jpg' style='max-width:100%; height:auto;'/></a>
-          </div>
-          <div class='col'><a href='/page/4.html'><img class='img-fluid' src='/img/thumbnail/4.jpg' style='max-width:100%; height:auto;'/></a>
-          </div>
-        </div>
-        <div class='row no-gutters'><!-- traffic and emotions-->
-          <div class='col'><a href='/page/5.html'><img class='img-fluid' src='/img/thumbnail/5.jpg' style='max-width:100%; height:auto;'/></a>
-          </div>
-          <div class='col'><a href='/page/6.html'><img class='img-fluid' src='/img/thumbnail/6.jpg' style='max-width:100%; height:auto;'/></a>
-          </div>
-        </div>
-        <div class='row no-gutters'><!-- buckminster and fuller-->
-          <div class='col'><a href='/page/7.html'><img class='img-fluid' src='/img/thumbnail/7.jpg' style='max-width:100%; height:auto;'/></a>
-          </div>
-          <div class='col'><a href='/page/8.html'><img class='img-fluid' src='/img/thumbnail/8.jpg' style='max-width:100%; height:auto;'/></a>
-          </div>
-        </div>
-        <div class='row no-gutters'><!-- sacre and plastic magazine-->
-          <div class='col'><a href='/page/9.html'><img class='img-fluid' src='/img/thumbnail/9.jpg' style='max-width:100%; height:auto;'/></a>
-          </div>
-          <div class='col'><a href='/page/10.html'><img class='img-fluid' src='/img/thumbnail/10.jpg' style='max-width:100%; height:auto;'/></a>
-          </div>
-        </div>
-      <div id="contact">
-          <h2>Amber Lee</h2>
-          <h5>Graphic Designer</h5>
-          <p>
-            amberleeyk@gmail.com
-          </p>
-      </div>
- <div w3-include-html="/snippet/content.html"></div>
-        </div><!-- wraps body content for sidebar -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-        <script src="/javascript/scroll.js"></script>
-        <script src="/javascript/sidebar.js"></script>
-        <script src="/javascript/includehtml.js"></script>
-        <script>includeHTML();</script>
-      </body>
-    </html>
+         <button id='scrollTopbtn' onclick='topFunction()' title='Go to top'><i class='fas fa-angle-up'></i></button>
+         <button class="openbtn" onclick="openNav()"><i class="fa fa-bars" aria-hidden="true"></i></button><!-- sidebar open button icon -->
+         <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fas fa-times"></i></a><!-- sidebar close button icon -->
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#contact">Contact</a>
+         </div><!-- end of sidebar-->
+         <!-- change pages to descriptive pages later-->
+         <div class='row no-gutters'><!--circuit and circuit branding-->
+            <div class='col'><a href='/page/1.html'><img class='img-fluid' src='/img/thumbnail/1.jpg' style='max-width:100%; height:auto;'/></a></div>
+            <div class='col'><a href='/page/2.html'><img class='img-fluid' src='/img/thumbnail/2.jpg' style='max-width:100%; height:auto;'/></a></div>
+         </div>
+         <div class='row no-gutters'><!--dracula and verve-->
+            <div class='col'><a href='/page/3.html'><img class='img-fluid' src='/img/thumbnail/3.jpg' style='max-width:100%; height:auto;'/></a></div>
+            <div class='col'><a href='/page/4.html'><img class='img-fluid' src='/img/thumbnail/4.jpg' style='max-width:100%; height:auto;'/></a></div>
+         </div>
+         <div class='row no-gutters'><!-- traffic and emotions-->
+            <div class='col'><a href='/page/5.html'><img class='img-fluid' src='/img/thumbnail/5.jpg' style='max-width:100%; height:auto;'/></a></div>
+            <div class='col'><a href='/page/6.html'><img class='img-fluid' src='/img/thumbnail/6.jpg' style='max-width:100%; height:auto;'/></a></div>
+         </div>
+         <div class='row no-gutters'><!-- buckminster and fuller-->
+            <div class='col'><a href='/page/7.html'><img class='img-fluid' src='/img/thumbnail/7.jpg' style='max-width:100%; height:auto;'/></a></div>
+            <div class='col'><a href='/page/8.html'><img class='img-fluid' src='/img/thumbnail/8.jpg' style='max-width:100%; height:auto;'/></a></div>
+         </div>
+         <div class='row no-gutters'><!-- sacre and plastic magazine-->
+            <div class='col'><a href='/page/9.html'><img class='img-fluid' src='/img/thumbnail/9.jpg' style='max-width:100%; height:auto;'/></a></div>
+            <div class='col'><a href='/page/10.html'><img class='img-fluid' src='/img/thumbnail/10.jpg' style='max-width:100%; height:auto;'/></a></div>
+         </div>
+         <div id="contact">
+            <h2>Amber Lee</h2>
+            <h5>Graphic Designer</h5>
+            <p>amberleeyk@gmail.com</p>
+         </div>
+         <div w3-include-html="/snippet/content.html"></div>
+      </div><!-- end of #main -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      <script src="/javascript/scroll.js"></script>
+      <script src="/javascript/sidebar.js"></script>
+      <script>includeHTML();</script>
+   </body>
+</html>
