@@ -11,7 +11,6 @@
   padding-top: 60px; /* Place content 60px from the top */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
 }
-
 /* The sidebar links */
 .sidebar a {
   padding: 8px 8px 8px 32px;
@@ -21,7 +20,6 @@
   display: block;
   transition: 0.3s;
 }
-
 /* When you mouse over the navigation links, change their color */
 .sidebar a:hover {
   color: #f1f1f1;
@@ -36,7 +34,6 @@
   margin-left: 55px; /* just some space */
   padding: 10px 15px; /* added this to match optnbtn */
 }
-
 /* The button used to open the sidebar */
 .openbtn {
   z-index: 1; /* Stay on top */
@@ -51,17 +48,14 @@
   padding: 10px 15px;
   border: none;
 }
-
 .openbtn:hover {
   background-color: #444;
 }
-
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #main {
   transition: margin-right .5s; /* If you want a transition effect */
   padding: 0px;
 }
-
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
   .sidebar {padding-top: 15px;}

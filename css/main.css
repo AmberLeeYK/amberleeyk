@@ -785,6 +785,7 @@ img {
     width: 100%;
   }
 }
+/* https://stackoverflow.com/questions/8715860/what-does-mean-in-css */
 */html, body {
   font-family: Open Sans;
   font-size: 18px;
@@ -822,7 +823,7 @@ img {
   justify-content: center;
   align-items: center;
   transform: translateZ(-1px) scale(2);
-  background: url(https://farm5.staticflickr.com/4833/44899527545_f718ad8259_k.jpg);
+  background: url('https://farm5.staticflickr.com/4833/44899527545_f718ad8259_k.jpg');
   background-color: rgb(250,228, 216);
   background-size: cover;
 }
