@@ -1,835 +1,363 @@
 
-/* sarah lee
+/*
 16 is a common base em, then use px to em conversion
- https://www.w3schools.com/tags/ref_pxtoemconversion.asp
- https://www.w3schools.com/cssref/css_units.asp
-body { font size: 16px; } sets base em, 16px is commonly used */
+https://www.w3schools.com/tags/ref_pxtoemconversion.asp
+https://www.w3schools.com/cssref/css_units.asp
+sets base em, 16px is commonly used
 
-/*  adds scrollbars, to prevent movement when clicking buttons
-html {
-    overflow: -moz-scrollbars-vertical;
-    overflow-y: scroll;
+body {
+   font size: 16px;
 }
- end, adds scrollbars, to prevent movement when clicking buttons */
-.section{
-margin:0px;
-}
-
-/*
-::-webkit-scrollbar
-{
-    width: 10px;
-}
-
-
-::-webkit-scrollbar-track-piece
-{
-    background-color: #1a1a1afa;
-    -webkit-border-radius: 6px;
-}
-
-/* scroll bar edit */
-/* {
-    box-sizing: border-box;
-}
-
-
+*/
 .columnsemotionstext {
-    display: grid;
-    grid-template-columns: 2fr 3fr;
-grid-gap: 18px;
-padding-right: 11.5%;
-padding-left: 11.5%;
+   display: grid;
+   grid-template-columns: 2fr 3fr;
+   grid-gap: 18px;
+   padding-right: 11.5%;
+   padding-left: 11.5%;
 }
-
 .columnsplastictext {
-    display: grid;
-    /*grid-template-columns: 2fr 2fr 3fr;*/
-    grid-template-columns: 1fr 3fr;
-    max-width: 80%;
-
-grid-gap: 18px;
-padding-right: 11.5%;
-padding-left: 11.5%;
-padding-top: 55px;4
-padding-bottom: 30px;
+   display: grid;
+   /*grid-template-columns: 2fr 2fr 3fr;*/
+   grid-template-columns: 1fr 3fr;
+   max-width: 80%;
+   grid-gap: 18px;
+   padding-right: 11.5%;
+   padding-left: 11.5%;
+   padding-top: 55px;4
+   padding-bottom: 30px;
 }
-
 .columnsemotions {
-    display: grid;
-    grid-template-columns: 2fr 3fr;
-    grid-template-rows: 25px 50px;
-grid-template-rows: repeat(1, 3fr);
-grid-gap: 18px;
-padding-right: 11.5%;
-padding-left: 11.5%;
+   display: grid;
+   grid-template-columns: 2fr 3fr;
+   grid-template-rows: 25px 50px;
+   grid-template-rows: repeat(1, 3fr);
+   grid-gap: 18px;
+   padding-right: 11.5%;
+   padding-left: 11.5%;
 }
-
 .columnsCircuit {
-    display: grid;
-    grid-template-columns: 2fr 2fr;
-    grid-template-rows: 25px 50px;
-grid-template-rows: repeat(1, 3fr);
-grid-gap: 18px;
-padding-right: 20.5%;
-padding-left: 20.5%;
+   display: grid;
+   grid-template-columns: 2fr 2fr;
+   grid-template-rows: 25px 50px;
+   grid-template-rows: repeat(1, 3fr);
+   grid-gap: 18px;
+   padding-right: 20.5%;
+   padding-left: 20.5%;
 }
-
 .columnsCircuit2 {
-    display: grid;
-    grid-template-columns: 2.5fr 2fr;
-    grid-template-rows: 25px 50px;
-grid-template-rows: repeat(1, 3fr);
-grid-gap: 18px;
-padding-right: 20.5%;
-padding-left: 20.5%;
+   display: grid;
+   grid-template-columns: 2.5fr 2fr;
+   grid-template-rows: 25px 50px;
+   grid-template-rows: repeat(1, 3fr);
+   grid-gap: 18px;
+   padding-right: 20.5%;
+   padding-left: 20.5%;
 }
-
 .columnsplastic {
-    display: grid;
-    grid-template-columns: 3fr 2fr;
-    grid-template-rows: 25px 50px;
-grid-template-rows: repeat(1, 3fr);
-grid-gap: 18px;
-padding-right: 11.5%;
-padding-left: 11.5%;
+   display: grid;
+   grid-template-columns: 3fr 2fr;
+   grid-template-rows: 25px 50px;
+   grid-template-rows: repeat(1, 3fr);
+   grid-gap: 18px;
+   padding-right: 11.5%;
+   padding-left: 11.5%;
 }
-
 .columnstraffic {
-    display: grid;
-    grid-template-columns: 5fr 2fr;
-    grid-template-rows: 25px 50px;
-grid-template-rows: repeat(1, 3fr);
-grid-gap: 18px;
-padding-right: 11.5%;
-padding-left: 11.5%;
+   display: grid;
+   grid-template-columns: 5fr 2fr;
+   grid-template-rows: 25px 50px;
+   grid-template-rows: repeat(1, 3fr);
+   grid-gap: 18px;
+   padding-right: 11.5%;
+   padding-left: 11.5%;
 }
-
 .columnstraffic2 {
-    display: grid;
-    grid-template-columns: 2fr 3fr;
-    grid-template-rows: 25px 50px;
-grid-template-rows: repeat(1, 3fr);
-grid-gap: 18px;
-padding-right: 11.5%;
-padding-left: 11.5%;
+   display: grid;
+   grid-template-columns: 2fr 3fr;
+   grid-template-rows: 25px 50px;
+   grid-template-rows: repeat(1, 3fr);
+   grid-gap: 18px;
+   padding-right: 11.5%;
+   padding-left: 11.5%;
 }
-
-/*
-.columnemotions {
-    position: relative;
-   display: inline-block;
-   float: center;
-   width: auto;
-}
-
-.columnemotions2 {
-   position: relative;
-   display: inline-block;
-   float: right;
-   width: auto;
-}
-*/
-
-/* Clearfix (clear floats) */
-.rowemotions::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-/*carousel */
-
-
-.product-slider { padding: 45px; }
-
-.product-slider #carousel { border: 4px solid #1089c0; margin: 0; }
-
-.product-slider #thumbcarousel { margin: 12px 0 0; padding: 0 45px; }
-
-.product-slider #thumbcarousel .item { text-align: center; }
-
-.product-slider #thumbcarousel .item .thumb { border: 4px solid #cecece; width: 20%; margin: 0 2%; display: inline-block; vertical-align: middle; cursor: pointer; max-width: 98px; }
-
-.product-slider #thumbcarousel .item .thumb:hover { border-color: #1089c0; }
-
-.product-slider .item img { width: 100%; height: auto; }
-
-.carousel-control { color: #0284b8; text-align: center; text-shadow: none; font-size: 30px; width: 30px; height: 30px; line-height: 20px; top: 23%; }
-
-.carousel-control:hover, .carousel-control:focus, .carousel-control:active { color: #333; }
-
-.carousel-caption, .carousel-control .fa { font: normal normal normal 30px/26px FontAwesome; }
-.carousel-control { background-color: rgba(0, 0, 0, 0); bottom: auto; font-size: 20px; left: 0; position: absolute; top: 30%; width: auto; }
-
-.carousel-control.right, .carousel-control.left { background-color: rgba(0, 0, 0, 0); background-image: none; }
-* {
-    box-sizing: border-box;
-}
-
-
-.columnsemotionstext {
-    display: grid;
-    grid-template-columns: 2fr 3fr;
-grid-gap: 18px;
-padding-right: 11.5%;
-padding-left: 11.5%;
-}
-
-.columnsplastictext {
-    display: grid;
-    /*grid-template-columns: 2fr 2fr 3fr;*/
-    grid-template-columns: 1fr 3fr;
-    max-width: 80%;
-
-grid-gap: 18px;
-padding-right: 11.5%;
-padding-left: 11.5%;
-padding-top: 55px;
-padding-bottom: 30px;
-}
-
-.columnsemotions {
-    display: grid;
-    grid-template-columns: 2fr 3fr;
-    grid-template-rows: 25px 50px;
-grid-template-rows: repeat(1, 3fr);
-grid-gap: 18px;
-padding-right: 11.5%;
-padding-left: 11.5%;
-}
-
-.columnsplastic {
-    display: grid;
-    grid-template-columns: 3fr 2fr;
-    grid-template-rows: 25px 50px;
-grid-template-rows: repeat(1, 3fr);
-grid-gap: 18px;
-padding-right: 11.5%;
-padding-left: 11.5%;
-}
-
-.columnstraffic {
-    display: grid;
-    grid-template-columns: 5fr 2fr;
-    grid-template-rows: 25px 50px;
-grid-template-rows: repeat(1, 3fr);
-grid-gap: 18px;
-padding-right: 11.5%;
-padding-left: 11.5%;
-}
-
-.columnstraffic2 {
-    display: grid;
-    grid-template-columns: 2fr 3fr;
-    grid-template-rows: 25px 50px;
-grid-template-rows: repeat(1, 3fr);
-grid-gap: 18px;
-padding-right: 11.5%;
-padding-left: 11.5%;
-}
-
 .columnsdiary {
-    display: grid;
-    grid-template-columns: 3fr 3fr;
-    grid-template-rows: 25px 50px;
-grid-template-rows: repeat(1, 3fr);
-grid-gap: 18px;
-padding-right: 11.5%;
-padding-left: 11.5%;
+   display: grid;
+   grid-template-columns: 3fr 3fr;
+   grid-template-rows: 25px 50px;
+   grid-template-rows: repeat(1, 3fr);
+   grid-gap: 18px;
+   padding-right: 11.5%;
+   padding-left: 11.5%;
 }
-
 .columnsCircuitOngoing {
-    display: grid;
-    grid-template-columns: 2fr 2fr 2fr;
-    grid-template-rows: 25px 50px;
-grid-template-rows: repeat(1, 3fr);
-grid-gap: 15px;
-padding-right: 22.5%;
-padding-left: 22.5%;
+   display: grid;
+   grid-template-columns: 2fr 2fr 2fr;
+   grid-template-rows: 25px 50px;
+   grid-template-rows: repeat(1, 3fr);
+   grid-gap: 15px;
+   padding-right: 22.5%;
+   padding-left: 22.5%;
 }
-
 .columnsCircuitPrintFriends {
-    display: grid;
-    grid-template-columns: 2fr 2fr 2fr;
-    grid-template-rows: 25px 50px;
-grid-template-rows: repeat(1, 3fr);
-grid-gap: 15px;
-padding-right: 25.5%;
-padding-left: 25.5%;
+   display: grid;
+   grid-template-columns: 2fr 2fr 2fr;
+   grid-template-rows: 25px 50px;
+   grid-template-rows: repeat(1, 3fr);
+   grid-gap: 15px;
+   padding-right: 25.5%;
+   padding-left: 25.5%;
 }
-
 .columnsCircuitOngoing2 {
-    display: grid;
-    grid-template-columns: 3fr 2fr 2fr 2fr;
-    grid-template-rows: 25px 50px;
-grid-template-rows: repeat(1, 3fr);
-grid-gap: 15px;
-padding-right: 22.5%;
-padding-left: 22.5%;
+   display: grid;
+   grid-template-columns: 3fr 2fr 2fr 2fr;
+   grid-template-rows: 25px 50px;
+   grid-template-rows: repeat(1, 3fr);
+   grid-gap: 15px;
+   padding-right: 22.5%;
+   padding-left: 22.5%;
 }
-
 .columnsCircuitExhibits {
-    display: grid;
-    grid-template-columns: 2fr 2fr 2fr;
-    grid-template-rows: 25px 50px;
-grid-template-rows: repeat(1, 3fr);
-grid-gap: 0px;
-padding-right: 11.5%;
-padding-left: 11.5%;
+   display: grid;
+   grid-template-columns: 2fr 2fr 2fr;
+   grid-template-rows: 25px 50px;
+   grid-template-rows: repeat(1, 3fr);
+   grid-gap: 0px;
+   padding-right: 11.5%;
+   padding-left: 11.5%;
 }
-
 /*
 .columnemotions {
-    position: relative;
+   position: relative;
    display: inline-block;
    float: center;
    width: auto;
 }
-
-.columnemotions2 {
-   position: relative;
-   display: inline-block;
-   float: right;
-   width: auto;
-}
 */
-
 /* Clearfix (clear floats) */
 .rowemotions::after {
-    content: "";
-    clear: both;
-    display: table;
+   content: "";
+   clear: both;
+   display: table;
 }
-
 /*carousel */
-
-
 .product-slider { padding: 45px; }
-
 .product-slider #carousel { border: 4px solid #1089c0; margin: 0; }
-
 .product-slider #thumbcarousel { margin: 12px 0 0; padding: 0 45px; }
-
 .product-slider #thumbcarousel .item { text-align: center; }
-
-.product-slider #thumbcarousel .item .thumb { border: 4px solid #cecece; width: 20%; margin: 0 2%; display: inline-block; vertical-align: middle; cursor: pointer; max-width: 98px; }
-
+.product-slider #thumbcarousel .item .thumb {
+   border: 4px solid #cecece;
+   width: 20%; margin: 0 2%;
+   display: inline-block;
+   vertical-align: middle;
+   cursor: pointer;
+   max-width: 98px;
+}
 .product-slider #thumbcarousel .item .thumb:hover { border-color: #1089c0; }
-
-.product-slider .item img { width: 100%; height: auto; }
-
-.carousel-control { color: #0284b8; text-align: center; text-shadow: none; font-size: 30px; width: 30px; height: 30px; line-height: 20px; top: 23%; }
-
+.product-slider .item img {
+   width: 100%;
+   height: auto; }
+.carousel-control {
+   color: #0284b8;
+   text-align: center;
+   text-shadow: none;
+   font-size: 30px;
+   width: 30px;
+   height: 30px;
+   line-height: 20px;
+   top: 23%;
+}
 .carousel-control:hover, .carousel-control:focus, .carousel-control:active { color: #333; }
-
-.carousel-caption, .carousel-control .fa { font: normal normal normal 30px/26px FontAwesome; }
-.carousel-control { background-color: rgba(0, 0, 0, 0); bottom: auto; font-size: 20px; left: 0; position: absolute; top: 30%; width: auto; }
-
-.carousel-control.right, .carousel-control.left { background-color: rgba(0, 0, 0, 0); background-image: none; }/*CAROUSEL---------------------------------------------------------------------------*/
+.carousel-caption, .carousel-control .fa {
+   font: normal normal normal 30px/26px FontAwesome;
 }
-
+.carousel-control {
+   background-color: rgba(0, 0, 0, 0);
+   bottom: auto;
+   font-size: 20px;
+   left: 0;
+   position: absolute;
+   top: 30%;
+   width: auto;
+}
+.carousel-control.right, .carousel-control.left {
+   background-color: rgba(0, 0, 0, 0);
+   background-image: none;
+}
 * {
-  box-sizing: border-box;
+   box-sizing: border-box;
 }
-
-img {
-  vertical-align: middle;
-}
-
+img { vertical-align: middle;}
 /* Position the image container (needed to position the left and right arrows) */
-.container {
-  position: relative;
-}
-
+.container {position: relative;}
 /* Hide the images by default */
-.mySlides {
-  display: none;
-}
-
+.mySlides {display: none;}
 /* Add a pointer when hovering over the thumbnail images */
-.cursor {
-  cursor: pointer;
-}
-
+.cursor {cursor: pointer;}
 /* Next & previous buttons */
-.prev,
-.next {
-  cursor: pointer;
-  position: absolute;
-  top: 40%;
-  width: auto;
-  padding: 16px;
-  margin-top: -50px;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-  -webkit-user-select: none;
+.prev, .next {
+   cursor: pointer;
+   position: absolute;
+   top: 40%;
+   width: auto;
+   padding: 16px;
+   margin-top: -50px;
+   color: white;
+   font-weight: bold;
+   font-size: 20px;
+   border-radius: 0 3px 3px 0;
+   user-select: none;
+   -webkit-user-select: none;
 }
-
 /* Position the "next button" to the right */
 .next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
+   right: 0;
+   border-radius: 3px 0 0 3px;
 }
-
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
-  opacity: 0.2;
+.prev:hover, .next:hover {
+   opacity: 0.2;
 }
-
 /* Number text (1/3 etc) */
 .numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
+   color: #f2f2f2;
+   font-size: 12px;
+   padding: 8px 12px;
+   position: absolute;
+   top: 0;
 }
-
 /* Container for image text */
-/* .caption-container {
-  text-align: center;
-  background-color: #222;
-  padding: 2px 16px;
-  color: white;
-} */
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+/*
+.caption-container {
+   text-align: center;
+   background-color: #222;
+   padding: 2px 16px;
+   color: white;
 }
-
+*/
+.row:after {
+   content: "";
+   display: table;
+   clear: both;
+}
 /* Six columns side by side */
 .column {
-  float: left;
-  width: 16.66%;
+   float: left;
+   width: 16.66%;
 }
-
 /* Add a transparency effect for thumnbail images */
-.demo {
-  opacity: 0.6;
-}
-
-.active,
-.demo:hover {
-  opacity: 1;
-}/*CAROUSEL---------------------------------------------------------------------------*/
-}
-
-* {
-  box-sizing: border-box;
-}
-
-img {
-  vertical-align: middle;
-}
-
-/* Position the image container (needed to position the left and right arrows) */
-.container {
-  position: relative;
-}
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
-
-/* Add a pointer when hovering over the thumbnail images */
-.cursor {
-  cursor: pointer;
-}
-
-/* Next & previous buttons */
-.prev,
-.next {
-  cursor: pointer;
-  position: absolute;
-  top: 40%;
-  width: auto;
-  padding: 16px;
-  margin-top: -50px;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-  -webkit-user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
-  opacity: 0.2;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* Container for image text */
-/* .caption-container {
-  text-align: center;
-  background-color: #222;
-  padding: 2px 16px;
-  color: white;
-} */
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Six columns side by side */
-.column {
-  float: left;
-  width: 16.66%;
-}
-
-/* Add a transparency effect for thumnbail images */
-.demo {
-  opacity: 0.6;
-}
-
-.active,
-.demo:hover {
-  opacity: 1;
-}/*CAROUSEL---------------------------------------------------------------------------*/
-}
-
-* {
-  box-sizing: border-box;
-}
-
-img {
-  vertical-align: middle;
-}
-
-/* Position the image container (needed to position the left and right arrows) */
-.container {
-  position: relative;
-}
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
-
-/* Add a pointer when hovering over the thumbnail images */
-.cursor {
-  cursor: pointer;
-}
-
-/* Next & previous buttons */
-.prev,
-.next {
-  cursor: pointer;
-  position: absolute;
-  top: 40%;
-  width: auto;
-  padding: 16px;
-  margin-top: -50px;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-  -webkit-user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
-  opacity: 0.2;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* Container for image text */
-/* .caption-container {
-  text-align: center;
-  background-color: #222;
-  padding: 2px 16px;
-  color: white;
-} */
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Six columns side by side */
-.column {
-  float: left;
-  width: 16.66%;
-}
-
-/* Add a transparency effect for thumnbail images */
-.demo {
-  opacity: 0.6;
-}
-
-.active,
-.demo:hover {
-  opacity: 1;
-}
-
-/*CAROUSEL end---------------------------------------------------------------------------*/
-
-ul {
-  list-style: outside url("sqpurple.gif");
-}/*CAROUSEL---------------------------------------------------------------------------*/
-}
-
-* {
-  box-sizing: border-box;
-}
-
-img {
-  vertical-align: middle;
-}
-
-/* Position the image container (needed to position the left and right arrows) */
-.container {
-  position: relative;
-}
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
-
-/* Add a pointer when hovering over the thumbnail images */
-.cursor {
-  cursor: pointer;
-}
-
-/* Next & previous buttons */
-.prev,
-.next {
-  cursor: pointer;
-  position: absolute;
-  top: 40%;
-  width: auto;
-  padding: 16px;
-  margin-top: -50px;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-  -webkit-user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
-  opacity: 0.2;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* Container for image text */
-/* .caption-container {
-  text-align: center;
-  background-color: #222;
-  padding: 2px 16px;
-  color: white;
-} */
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Six columns side by side */
-.column {
-  float: left;
-  width: 16.66%;
-}
-
-/* Add a transparency effect for thumnbail images */
-.demo {
-  opacity: 0.6;
-}
-
-.active,
-.demo:hover {
-  opacity: 1;
-}
-
-/*CAROUSEL end---------------------------------------------------------------------------*/
-
+.demo {opacity: 0.6;}
+.active, .demo:hover {opacity: 1;}
+ul {list-style: outside url("sqpurple.gif");}
 /* BULLET LIST CUSTOM CIRCUIT X */
 .custom-list {
-    list-style: none;
-    padding-left: 0px;
-    margin: 0px;
+   list-style: none;
+   padding-left: 0px;
+   margin: 0px;
 }
 .custom-list li {
-    position: relative;
-    padding-left: 40px;
+   position: relative;
+   padding-left: 40px;
 }
 .custom-list li:before {
-    content: '';
-    width: 13px;
-    height: 13px;
-    position: absolute;
-    background-image: url('https://farm5.staticflickr.com/4850/46289156931_86ec32790a_s.jpg');
-    background-size: cover;
-    background-position: center;
-    left: 0;
-    /*top: 50%;
-    transform: translateY(-50%); */
-    margin-top: 6px;
+   content: '';
+   width: 13px;
+   height: 13px;
+   position: absolute;
+   background-image: url('https://farm5.staticflickr.com/4850/46289156931_86ec32790a_s.jpg');
+   background-size: cover;
+   background-position: center;
+   left: 0;
+   /*
+   top: 50%;
+   transform: translateY(-50%);
+   */
+   margin-top: 6px;
 }
-
-.widget .post-body ul {
-    padding: 0px;
-}
-
 /* BULLET LIST CUSTOM CIRCUIT PLUS */
-
 .custom-list-PLUS {
-    list-style: none;
-    padding-left: 0px;
-    margin: 0px;
+   list-style: none;
+   padding-left: 0px;
+   margin: 0px;
 }
 .custom-list-PLUS li {
-    position: relative;
-    padding-left: 40px;
+   position: relative;
+   padding-left: 40px;
 }
 .custom-list-PLUS li:before {
-    content: '';
-    width: 13px;
-    height: 13px;
-    position: absolute;
-    background-image: url('https://farm5.staticflickr.com/4901/44472251460_f31d11a094_s.jpg');
-    background-size: cover;
-    background-position: center;
-    left: 0;
-    /*top: 50%;
-    transform: translateY(-50%); */
-    margin-top: 6px;
+   content: '';
+   width: 13px;
+   height: 13px;
+   position: absolute;
+   background-image: url('https://farm5.staticflickr.com/4901/44472251460_f31d11a094_s.jpg');
+   background-size: cover;
+   background-position: center;
+   left: 0;
+   /*
+   top: 50%;
+   transform: translateY(-50%);
+   */
+   margin-top: 6px;
 }
-
-.widget .post-body ul {
-    padding: 0px;
-}
-
 /* KSJKJFSKDFJDFKJ */
-/*.circuitIntro2 {
-  float: left;
-  width: 33.33%;
-  padding: 10px;
+/*
+.circuitIntro2 {
+   float: left;
+   width: 33.33%;
+   padding: 10px;
 }
 .circuitIntroText2
-  float: left;
-  width: 33.33%;
-  padding: 10px;
+   float: left;
+   width: 33.33%;
+   padding: 10px;
 }
 /* Clear floats after the columns */
 .row:after {
-  content: "";
-  display: table;
-  clear: both;
+   content: "";
+   display: table;
+   clear: both;
 }
-
-
 @media screen and (max-width: 600px) {
-  .circuitIntro2, .circuitIntroText2 {
-    width: 100%;
-  }
+   .circuitIntro2, .circuitIntroText2 {
+      width: 100%;
+   }
 }
 /* https://stackoverflow.com/questions/8715860/what-does-mean-in-css */
 */html, body {
-  font-family: Open Sans;
-  font-size: 18px;
-  line-height: 28px;
+   font-family: Open Sans;
+   font-size: 18px; /* sarah chnaged this above so remove this */
+   line-height: 28px;
 }
-
 .MainContainer {
-  perspective: 1px;
-  transform-style: preserve-3d;
-  height: 100vh;
-  overflow-x: hidden;
-  /*overflow-y: scroll;*/
-  overflow-y: scroll;
+   perspective: 1px;
+   transform-style: preserve-3d;
+   height: 100vh;
+   overflow-x: hidden;
+   /*overflow-y: scroll;*/
+   overflow-y: scroll;
 }
-
 .ContentContainer {
-  position: relative;
-  display: block;
-  background-color: white;
-  z-index: 1;
+   position: relative;
+   display: block;
+   background-color: white;
+   z-index: 1;
 }
-
 .Content {
-  max-width: 750px;
-  margin: 0 auto;
-  padding: 75px 0;
+   max-width: 750px;
+   margin: 0 auto;
+   padding: 75px 0;
 }
-
 .ParallaxContainer {
-  display: flex;
-  flex: 1 0 auto;
-  position: relative;
-  z-index: -1;
-  height: 100vh;
-  justify-content: center;
-  align-items: center;
-  transform: translateZ(-1px) scale(2);
-  background: url('https://farm5.staticflickr.com/4833/44899527545_f718ad8259_k.jpg');
-  background-color: rgb(250,228, 216);
-  background-size: cover;
+   display: flex;
+   flex: 1 0 auto;
+   position: relative;
+   z-index: -1;
+   height: 100vh;
+   justify-content: center;
+   align-items: center;
+   transform: translateZ(-1px) scale(2);
+   background: url('https://farm5.staticflickr.com/4833/44899527545_f718ad8259_k.jpg');
+   background-color: rgb(250,228, 216);
+   background-size: cover;
 }
-
-.MainContainer::-webkit-scrollbar {
-    width: 0;
-}
-.img-fluid{
-}
+.MainContainer::-webkit-scrollbar {width: 0;}
