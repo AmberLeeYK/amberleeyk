@@ -18,7 +18,7 @@ function include1HTML() {
           if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
           /* Remove the attribute, and call this function once more: */
           elmnt.removeAttribute("w3-include1-html");
-          includeHTML();
+          include1HTML();
         }
       }
       xhttp.open("GET", file, true);
