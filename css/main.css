@@ -45,51 +45,47 @@ img {
 /* end of parallax */
 /* start of sidebar menu */
 .sidebar {
-  height: 100%; /* 100% Full-height */
-  width: 0; /* 0 width - change this with JavaScript */
-  position: fixed; /* Stay in place */
-  z-index: 2;
-  top: 0;
-  right: 0;
-  background-color: #111;
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 60px; /* Place content 60px from the top */
-  transition: 0.5s; /* transition effect to slide in the sidebar */
+   height: 100%; /* 100% Full-height */
+   width: 0; /* 0 width - change this with JavaScript */
+   position: fixed; /* Stay in place */
+   z-index: 2;
+   top: 0;
+   right: 0;
+   background-color: #111;
+   overflow-x: hidden; /* Disable horizontal scroll */
+   padding-top: 60px; /* Place content 60px from the top */
+   transition: 0.5s; /* transition effect to slide in the sidebar */
 }
 .sidebar a, #projectTitle {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 1.2em;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
+   padding: 8px 8px 8px 32px;
+   text-decoration: none;
+   font-size: 1.2em;
+   color: #818181;
+   display: block;
+   transition: 0.3s;
 }
 .sidebar a:hover {
-  color: #f1f1f1;
+   color: #f1f1f1;
 }
 .sidebar .closebtn {
-  position: absolute;
-  top: 0;
-  right: 0;
-  font-size: 20px;
-  margin-left: 55px;
-  padding: 10px 15px; /* change this to match optnbtn */
-}
-.sticky-sidebar-button {
- position: sticky;
- position: -webkit-sticky;
- top: 0;
- right:0;
-  z-index: 1;
-  padding: 10px 15px;
+   position: absolute;
+   top: 0;
+   right: 0;
+   font-size: 20px;
+   margin-left: 55px;
+   padding: 10px 15px; /* change this to match optnbtn */
 }
 .openbtn {
-  font-size: 20px;
-  cursor: pointer;
-  background-color: #111;
-  color: white;
-  padding: 10px 15px;
-  border: none;
+   position: fixed;
+   top: 0;
+   right:0;
+   z-index: 1;
+   font-size: 20px;
+   cursor: pointer;
+   background-color: #111;
+   color: white;
+   padding: 10px 15px;
+   border: none;
 }
 .openbtn:hover {
   background-color: #444;
