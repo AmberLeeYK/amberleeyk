@@ -1,6 +1,3 @@
-/*
-https://www.w3schools.com/howto/howto_html_include.asp
-*/
 function include1HTML() {
   var z, i, elmnt, file, xhttp;
   /* Loop through a collection of all HTML elements: */
@@ -27,4 +24,4 @@ function include1HTML() {
       return;
     }
   }
-}
+};
