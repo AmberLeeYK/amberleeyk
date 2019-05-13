@@ -150,6 +150,8 @@ img {
   text-align: center;
   margin:auto;
   width: 55%;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .pagination a {
   color: black;
@@ -165,7 +167,7 @@ float: left;
 float: right;
 }
 .arrow-prev {
-padding-right: 0px;
+padding-right: 40px;
 }
 .arrow-next {
 padding-left: 40px;
