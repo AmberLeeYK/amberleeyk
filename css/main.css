@@ -77,7 +77,8 @@ img {
 }
 .openbtn {
   z-index: 1;
-  position: absolute;
+  position: sticky;
+  position: -webkit-sticky;
   top: 0;
   right:0;
   font-size: 20px;
