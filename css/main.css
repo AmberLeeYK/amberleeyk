@@ -76,11 +76,12 @@ img {
   padding: 10px 15px; /* change this to match optnbtn */
 }
 .sticky-sidebar-button {
-position: -webkit-sticky;
  position: sticky;
+ position: -webkit-sticky;
  top: 0;
  right:0;
   z-index: 1;
+  padding: 10px 15px;
 }
 .openbtn {
   font-size: 20px;
