@@ -8,3 +8,111 @@ body {
    font-size: 16px;
    font-family: 'Work Sans', sans-serif;
 }
+/* start of parallax */
+.parallax {
+    min-height: 90vh;
+    margin-bottom: 130px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*
+  Turn off parallax scrolling for all tablets and phones.
+  Increase/decrease the pixels if needed.
+*/
+@media only screen and (max-device-width: 1366px) {
+   .parallax {  background-attachment: scroll;}
+}
+.para1 { background-image: url('/img/parallax/1.jpg');}
+.para2 { background-image: url('/img/parallax/2.jpg');}
+.para3 { background-image: url('/img/parallax/3.jpg');}
+.para4 { background-image: url('/img/parallax/4.jpg');}
+.para5 { background-image: url('/img/parallax/5.jpg');}
+.para6 { background-image: url('/img/parallax/6.jpg');}
+.para7 { background-image: url('/img/parallax/7.jpg');}
+.para8 { background-image: url('/img/parallax/8.jpg');}
+.para9 { background-image: url('/img/parallax/9.jpg');}
+.para10 { background-image: url('/img/parallax/10.jpg');}
+/* end of parallax */
+/* start of sidebar menu */
+.sidebar {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* transition effect to slide in the sidebar */
+}
+.sidebar a, h4 {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 1.2em;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 20px;
+  margin-left: 55px;
+  padding: 10px 15px; /* change this to match optnbtn */
+}
+.openbtn {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  right:0;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+.openbtn:hover {
+  background-color: #444;
+}
+#main {
+  transition: margin-right .5s; /* If you want a transition effect */
+  padding: 0px;
+}
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+/* end of sidebar */
+/* start of scroll to top button */
+#scrollTopbtn {
+display: none; /* Hidden by default */
+position: fixed; /* Fixed/sticky position */
+bottom: 20px; /* Place the button at the bottom of the page */
+right: 10px; /* Place the button 30px from the right */
+z-index: 99; /* Make sure it does not overlap */
+border: none;
+outline: none;
+background-color: rgba(0, 0, 0, 0.2);
+color: black;
+cursor: pointer; /* Add a mouse pointer on hover */
+padding: 4px 10px 4px 10px;
+border-radius: 20px;
+font-size: 15px;
+transition-duration: 1s; /* added this but i don't think it works */
+}
+#scrollTopbtn:hover {
+background-color: rgba(0, 0, 0, 0.6); /* Add a dark-grey background on hover */
+}
+/* end of scroll to top button */
