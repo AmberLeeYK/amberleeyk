@@ -116,3 +116,27 @@ transition-duration: 1s; /* added this but i don't think it works */
 background-color: rgba(0, 0, 0, 0.6); /* Add a dark-grey background on hover */
 }
 /* end of scroll to top button */
+/* start of namebar */
+.namebar {
+  border: 1px solid red;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  font-size: 1.1em;
+}
+.namebar a {
+    text-decoration: none;
+}
+.namebar a:link {
+  color: red;
+}
+.namebar a:visited {
+  color: green;
+}
+.namebar a:hover {
+  color: hotpink;
+}
+.namebar a:active {
+  color: blue;
+}
+/* end of namebar */
