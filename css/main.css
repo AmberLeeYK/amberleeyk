@@ -20,6 +20,10 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+img {
+   margin: auto;
+   max-width: 100%;
+}
 /*
   Turn off parallax scrolling for all tablets and phones.
   Increase/decrease the pixels if needed.
