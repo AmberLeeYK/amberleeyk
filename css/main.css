@@ -80,6 +80,7 @@ position: -webkit-sticky;
  position: sticky;
  top: 0;
  right:0;
+  z-index: 1;
 }
 .openbtn {
   z-index: 1;
