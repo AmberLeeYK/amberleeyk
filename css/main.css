@@ -23,6 +23,7 @@ body {
 img {
    margin: auto;
    max-width: 100%;
+   display: block;
 }
 /*
   Turn off parallax scrolling for all tablets and phones.
