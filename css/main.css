@@ -123,7 +123,7 @@ img {
 /* end of scroll to top button */
 /* start of namebar */
 .namebar {
-   position: absolute;
+   position: fixed;
    top: 30px;
    left: 30px;
    font-size: 1.1em;
