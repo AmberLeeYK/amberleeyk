@@ -83,10 +83,6 @@ position: -webkit-sticky;
   z-index: 1;
 }
 .openbtn {
-  z-index: 1;
-  position: absolute;
-  top: 0;
-  right:0;
   font-size: 20px;
   cursor: pointer;
   background-color: #111;
