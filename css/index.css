@@ -1,14 +1,6 @@
 body {
    margin-top: -16px;
 }
-.left{
-   float: left;
-   width: 50%;
-}
-.right {
-   float: right;
-   width: 50%;
-}
 .introbox {
    height: 60vh;
    position: relative;
@@ -22,4 +14,60 @@ body {
    left: 50%;
    -ms-transform: translate(-50%, -50%);
    transform: translate(-50%, -50%);
+}
+.container-left, .container-right {
+   width: 50%;
+  height: auto;
+   position: relative;
+}
+.container-left {
+  float: left;
+}
+
+.container-right {
+  float: right;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container-left:hover .overlay {
+  opacity: 1;
+}
+.container-right:hover .overlay {
+  opacity: 1;
+}
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.left{
+   float: left;
+   width: 50%;
+}
+.right {
+   float: right;
+   width: 50%;
 }
