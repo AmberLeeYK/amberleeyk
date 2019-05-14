@@ -17,7 +17,7 @@ body {
 }
 .container-left, .container-right {
    width: 50%;
-  height: auto;
+   height: auto;
    position: relative;
 }
 .container-left {
@@ -62,8 +62,7 @@ body {
   transform: translate(-50%, -50%);
   text-align: center;
 }
-
-.left{
+.left {
    float: left;
    width: 50%;
 }
