@@ -42,18 +42,14 @@ body {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #008CBA;
+  background-color: #000;
 }
-
-.container-left:hover .overlay {
-  opacity: 1;
-}
-.container-right:hover .overlay {
-  opacity: 1;
+.container-left:hover .overlay, .container-right:hover .overlay {
+  opacity: .6;
 }
 .text {
   color: white;
-  font-size: 20px;
+  font-size: 1.7em;
   position: absolute;
   top: 50%;
   left: 50%;
